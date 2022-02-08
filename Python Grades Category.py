@@ -2,11 +2,11 @@
 
 print ("\nGRADES AVERAGE PROGRAM")
 
-math = float(input("Math grade: "))
-english = float(input("English grade: "))
-science = float(input("Science grade: "))
-pe = float(input("P.E. grade: "))
-history = float(input("History grade: "))
+math = float(input("\nMath grade: "))
+english = float(input("\nEnglish grade: "))
+science = float(input("\nScience grade: "))
+pe = float(input("\nP.E. grade: "))
+history = float(input("\nHistory grade: "))
 
 grade = [math,english,science,pe,history]
 
@@ -19,16 +19,16 @@ average = sum(grade)/5
 print ("Your Average is " + str(average))
 
 if average > 100 or average <= 50:
-    print("Invalid Grade")
+    print("\nInvalid Grade")
 elif average >= 98:
-        print("With Highest Honor")
+        print("\nWith Highest Honor")
 elif average >= 95:
-     print("With High Honor")
+     print("\nWith High Honor")
 elif average >= 90:
-        print("With Honor")
+        print("\nWith Honor")
 elif average >= 75:
-        print("Passed")
+        print("\nPassed")
 else:
-        print("Failed")
+        print("\nFailed")
 
 print ("\n")
