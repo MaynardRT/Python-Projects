@@ -12,11 +12,11 @@ grade = [math,english,science,pe,history]
 
 if math < 75 or english < 75 or science < 75 or pe < 75 or history < 75:
 
-    print ("Please pass your failed subject/s!")
+    print ("\nPlease pass your failed subject/s!")
 
 average = sum(grade)/5
 
-print ("Your Average is " + str(average))
+print ("\nYour Average is " + str(average))
 
 if average > 100 or average <= 50:
     print("\nInvalid Grade")
