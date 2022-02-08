@@ -25,3 +25,5 @@ elif (operation == 4):
      print ("\n Remainder" + " " + str(remainder)) 
 else:
     print ('Error! Please select the corresponding number for operation.')
+
+print ("\n")
