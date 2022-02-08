@@ -1,7 +1,8 @@
 #Python Basic Grade Category per Average
 
-print ("\nGRADES AVERAGE PROGRAM")
 
+print ("\nGRADES AVERAGE PROGRAM")
+print ("\n")
 math = float(input("\nMath grade: "))
 english = float(input("\nEnglish grade: "))
 science = float(input("\nScience grade: "))
