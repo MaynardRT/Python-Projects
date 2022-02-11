@@ -16,6 +16,5 @@ elif age < 18 and height <= 150:
     print ("\nShort and Underage")
 else:
     print("\nUnderage")
-
     
 print ("\n")
